@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1"
+  },
+  "name": "pinterestclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node backend/index.js",
+    "dev": "nodemon backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivaramanand/pinterestClone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sivaramanand/pinterestClone/issues"
+  },
+  "homepage": "https://github.com/sivaramanand/pinterestClone#readme",
+  "devDependencies": {
+    "eslint": "^9.33.0",
+    "nodemon": "^3.1.10"
+  }
+}
